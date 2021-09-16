@@ -1,6 +1,6 @@
 # Random user generator
 
-![screenshot](https://octodex.github.com/images/bannekat.png)
+![screenshot](https://github.com/leanug/random-user-generator/blob/main/src/images/screenshot.png)
 
 Built with
 
