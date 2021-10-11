@@ -8,10 +8,10 @@ function App() {
   return (
     <div className="App">
       <>
-        <div className="my">
+        <div>
           <User />
         </div>
-        <div className="my">
+        <div style={{ marginTop: '2rem' }}>
           <UserList />
         </div>
       </>

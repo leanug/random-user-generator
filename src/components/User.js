@@ -120,6 +120,12 @@ const Wrapper = styled.div`
         margin-top: 1rem;
     }
 
+    @media screen and (max-width: 576px) {
+        h2 {
+            font-size: 1.6rem;
+        }
+    }
+
     .button-wrapper {
         margin-top: 3rem;
         display: flex;
