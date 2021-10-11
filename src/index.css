@@ -44,10 +44,6 @@ body {
   padding-right: 2rem;
 }
 
-.wrapper.list {
-  padding: 2rem;
-}
-
 .btn {
   border: none;
   border-radius: 50%;
@@ -83,8 +79,4 @@ body {
 .avatar-wrapper {
   margin: auto;
   display: inline-block;
-}
-
-.my {
-  margin: 2rem; 
 }

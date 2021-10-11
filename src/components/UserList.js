@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import { AiOutlineUserAdd } from 'react-icons/ai'
 
 const UserList = () => {
-    const { users, getUser, setUserId } = useContext(Context)
+    const { users, getUser, setUserId, loading } = useContext(Context)
 
     return (
         <Wrapper className="wrapper">
@@ -12,6 +12,7 @@ const UserList = () => {
                 onClick={ getUser }
                 onKeyPress={ getUser }
                 className="btn"
+                disabled={ loading  }
             >
                 <AiOutlineUserAdd />
             </button>
@@ -46,6 +47,11 @@ const Wrapper = styled.div`
         svg {
             color: var(--clr-psi);
             font-size: 2.4rem;
+        }
+
+        &:disabled {
+            cursor: auto;
+            opacity: 0.5;
         }
     }
 
